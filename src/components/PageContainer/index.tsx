@@ -3,6 +3,8 @@ import { ReactNode } from "react"
 
 interface IPageContainerProps {
     children?: ReactNode
+    noHeader?: boolean;
+    noFooter?: boolean;
 }
 
 const PageContainer = ({ children }:IPageContainerProps) => {
