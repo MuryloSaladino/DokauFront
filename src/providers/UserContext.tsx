@@ -14,9 +14,9 @@ export const UserProvider = ({ children }:{ children:ReactNode }) => {
     return (
         <UserContext.Provider 
             value={{
-                user: user
+                user: user,
             }} 
-            children={children} 
+            children={ children } 
         />
     )
 }
